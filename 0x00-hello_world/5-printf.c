@@ -9,6 +9,6 @@ int main(void)
 /*printf: displays output*/
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 /*Return: zero program runs successfully with no errors*/
-	return(0);
+	return 0;
 
 }
