@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,9 +9,5 @@
 
 int mul(int a, int b)
 {
-	int product;
-
-	product = a * b;
-	printf("The Product is: %d\n", product);
-	return(0);
+	return (a*b);
 }
