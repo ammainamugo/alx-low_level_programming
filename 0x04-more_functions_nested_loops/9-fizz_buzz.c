@@ -1,11 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - print out fizz, buzz and fizzbuzz
- * return: Success 0
+ * main - Entry point of the program
+ *
+ * Description: Print out 1 to 100
+ * Multiples of 3 prints fizz
+ * mutiples of 5 prints buzz
+ * multiples of 3 and 5 prints fizzbuzz
+ *
+ * return: Always 0 Success
  */
 
-int main()
+int main(void)
 {
 	int i;
 
@@ -25,5 +31,5 @@ int main()
 			printf("%d ", i);
 		}
 	}
-	return 0;
+	return (0);
 }
